@@ -1,0 +1,65 @@
+# 🎡 Professional Wheel of Names
+
+A colorful and interactive wheel of names built with Python and Tkinter for Windows. Easily manage participants, spin the wheel, and randomly select a winner with animated rotation and sound effects.
+
+## ✨ Features
+
+- **Animated Wheel:** Colorful spinning wheel with smooth deceleration.
+- **Participant Management:** Add names individually or enter multiple names at once.
+- **Random Winner Selection:** Select a winner from the participant list.
+- **Sound Effects:** Generated spinning tick sounds and a winner celebration sound.
+- **Save and Load:** Save participant lists to text files and load them later.
+- **Automatic Winner Removal:** Optionally remove each winner from the participant list.
+- **Fullscreen Mode:** Toggle fullscreen using F11 and exit with Escape.
+- **Keyboard Shortcuts:** Press Space to spin when not typing in a text field.
+- **Persian Interface:** A dark-themed graphical interface with Persian labels.
+
+## 🖥 Requirements
+
+- Windows
+- Python 3.10 or newer recommended
+- Tkinter (usually included with standard Windows Python installations)
+
+The application uses Python standard-library modules and does not require third-party packages based on the current source code.
+
+## 🚀 Getting Started
+
+1. Install Python for Windows if it is not already installed.
+2. Download or clone this repository.
+3. Open a terminal in the project directory.
+4. Run the application:
+
+   ```bash
+   python main.py
+   ```
+
+Replace `main.py` with the actual Python filename if it is different.
+
+## 🎯 How to Use
+
+1. Add participants individually or enter multiple names.
+2. Review the participant list.
+3. Click the wheel or the Spin button to start.
+4. View the selected winner.
+5. Optionally enable automatic winner removal for repeated draws.
+6. Save your participant list for later use.
+
+## 🔊 Sound Effects
+
+The application generates its own WAV sound files when they are missing. Sound playback uses the Windows `winsound` module.
+
+## ⚠️ Note on Random Selection
+
+This application is designed for casual, educational, and entertainment use. For regulated lotteries, high-value prizes, or other situations requiring independently verifiable fairness, use a system designed and audited for that purpose.
+
+## 🤝 Contributing
+
+Bug reports, feature suggestions, and improvements are welcome. Please open an issue or submit a pull request.
+
+## 📄 License
+
+The project license has not yet been selected. Add a `LICENSE` file before publishing if you want to grant others explicit permission to reuse, modify, and distribute the code.
+
+## 👨‍💻 Author
+
+Maintained by [minatakkhal118].
